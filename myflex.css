@@ -1,0 +1,560 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10%;
+  text-align: center;
+  background:url(images-5.png) ;
+  color: #cafaf3;
+border-size:solid;
+
+} 
+
+.pic 
+{
+
+padding:10px;
+text-align:center;
+text-decoration: none;
+
+
+}
+
+
+img
+{
+height: 165px;
+border: solid;
+
+}
+
+
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #162944;
+font-weight:bold;
+padding: 0px 0px 0px 35%;
+
+
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin:10px;
+  
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #518ce082;
+  color: #0adcdf;
+  transition: 2s;
+}
+
+
+.myspace
+{
+	margin-top: 100px;
+	background-color: olive;
+
+}
+section
+{
+	width: 100%;
+	height: 100vh;
+	background: url(Events_Page_Header_2903ed9c-40c1-4f6c-9a69-70bb8415295b.jpg); 
+	background-size: cover; 
+	margin-top: 25px;
+}
+
+
+section .leftBox
+{
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+section .leftBox .content
+{
+	color: #fff;
+	background: rgba(133, 35, 78, 0.44);
+	padding: 40px;
+	transition: .5s;
+}
+
+section .leftBox .content:hover
+{
+	background: #300413;
+}
+
+
+
+section .leftBox .content h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	text-transform: uppercase; 
+}
+
+section .leftBox .content p
+{
+	margin: 10px 0 0;
+	padding: 0;
+	
+}
+
+/*2nd Half of the code*/
+
+section .events
+{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background: rgba(170, 14, 74, 0.45);
+	float: right;
+	box-sizing: border-box;
+	display: flex;
+}
+
+section .events ul
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+	padding: 40px;
+	box-sizing: border-box;
+
+}
+
+section .events ul li
+{
+	list-style: none;
+	background: #fff;
+	box-sizing: border-box;
+	height: 200px;
+	/*margin: 15px 0;*/ /*change this to separate the events*/
+}
+
+section .events ul li .time
+{
+	position: relative;
+	padding: 20px;
+	background:  #b84068cc;
+    
+	box-sizing: border-box;
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	transition: .5s;
+
+}
+
+section .events ul li:hover .time
+{
+	background: #300413;
+}
+
+section .events ul li .time h2
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 60px;
+	line-height: 30px
+}
+
+section .events ul li .time h2 span
+{
+	font-size: 30px;
+}
+
+section .events ul li .details
+{
+	padding: 20px;
+	background:#a74b54;
+	box-sizing: border-box;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+section .events ul li .details h3
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+
+}
+
+section .events ul li .details p
+{
+	position: relative;
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 16px;
+	
+}
+
+section .events ul li .details a
+{
+	display: inline-block;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	padding: 10px 15px;
+	border: 2px solid #262626;
+	margin-top: 15px;
+	font-size: 18px;
+	transition: .5s;
+	/*float: right;*/
+}
+
+section .events ul li .details a:hover
+{
+	background: #300413;
+	color: #fff;
+	
+}
+
+/* Column container */
+.row  {  
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.side {
+  flex: 30%;
+ background-color:#041126;
+  padding: 20px;
+color:#fff;
+}
+
+.about
+{
+background-color: rgba(0,0,0,0.5);
+padding:10px;
+text-align: center;
+margin: 10px;
+}
+
+.about:hover
+{
+background-color:#5d7bac;
+padding:10px;
+color:black;
+transition: 3s;
+}
+
+.more
+{
+    
+	display: inline-block;
+	text-decoration: none;
+	padding: 1px 100px;
+	border: 2px solid #0ed0d3;
+	margin-top: 15px;
+	font-size: 18px;
+	transition: .5s;
+	margin: 10px;
+	
+}
+
+.more:hover
+{
+	background: #12eff2ba;
+	color: #fff;
+	margin-bottom: 100px;
+
+}
+
+.para
+{
+	border-style: solid;
+	padding: 10px 15px 10px 15px;
+	display: flex;
+	
+}
+.para p
+{
+ text-align: center; 
+
+
+
+}
+
+.para2
+{
+	border-style: solid;
+	padding: 10px 15px 10px 15px;
+	display: flex;
+	 width: 70%;
+}
+
+
+/* About me image */
+.fakeimg {
+  width: 70%;
+
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pic li 
+{
+background-color:#1d204fd4;
+padding:10px;
+text-align:center;
+text-decoration: none;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #162944;
+font-weight:bold;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #518ce082;
+  color: #0adcdf;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.resume
+{
+margin-top: 30px;
+margin-left: 10px;
+width: 75%;
+height: 100px;
+
+}
+
+.space
+{
+	background-color: rgba(0,0,0,.5);
+
+	margin-top: 50px
+
+}
+
+.space p 
+{
+	padding: 5px 5px 5px 5px;
+}
+ .resume h2
+}
+{
+text-align: center;
+width: 85%;
+}
+
+
+.kim
+{
+margin-right: -250px;
+    float: right;
+    height: 180px;
+    border: solid;
+    color:#e7ebf0;
+
+
+}
+ .objectives h1
+{
+border-style: solid;
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+font-size: 20px;
+padding: 10px 10px 10px 10px;
+}
+
+ .background h1
+{
+border-style: solid;
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+}
+
+ .seminar h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+}
+
+ .skills h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+}
+
+ .information h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+}
+
+ .reference h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+}
+
+ .affirmation h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+ .signature
+{
+margin: 0;
+padding: 0;
+font-size: 13px;
+}
+
+ .signature p
+{
+float: right;
+width: 30%;
+}
+
+
+
+
+
+.botton
+{
+position: fixed;
+width: 25px;
+height: 40px;
+background: #34578a;
+bottom: 35px;
+right: 50px;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+color: #000;
+font-size: 20px;
+
+
+border-radius: 15px;
+cursor: pointer;
+transition:all 0.5s;
+color: pointer;
+
+}
+/*
+.botton
+{
+	position: fixed;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 22px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border:none;
+	border-radius: 15px; 
+	box-shadow: 0 9px #999;
+}*/
+.botto:hover
+{background-color: #653f7f;}
+
+.botton:active
+{
+	background-color: blue;
+	box-shadow: 0 10px #666;
+	transform: translateY(4px);
+
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }

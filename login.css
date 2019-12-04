@@ -1,0 +1,132 @@
+body 
+{
+	
+	padding:0;
+	margin:0;
+	background: url(images-2.jpeg);
+	background-size: cover;
+
+
+}
+
+
+
+.navbar {
+  display: flex;
+  background-color: #162944;
+font-weight:bold;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #518ce082;
+  color: #0adcdf;
+}
+
+
+
+
+.login-box
+{
+	width: 320px;
+	height: 420;
+	background: rgba(12, 25, 16, 0.56);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+
+h1
+{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.select
+{
+	width: 100%;
+	border: none;
+
+}
+
+.login-box p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+
+
+}
+
+.login-box input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+
+.gender
+{
+	text-align: center;
+	display: flex;
+}
+	
+
+	
+
+.login-box select 
+{
+
+margin-bottom: 20px;
+background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #0c3452;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background:#39dc79;
+	color: #000;
+}

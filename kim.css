@@ -1,0 +1,175 @@
+
+
+body
+{
+margin: 10px;
+padding: 0;
+width: 100%;
+background-color:#263a56;
+color:#e7ebf0;;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10%;
+  text-align: center;
+  background:url(images-5.png) ;
+  color: #cafaf3;
+border-size:solid;
+
+} 
+
+
+img
+{
+height: 165px;
+border: solid;
+
+}
+
+
+.pic li 
+{
+background-color:#1d204fd4;
+padding:10px;
+text-align:center;
+text-decoration: none;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #162944;
+font-weight:bold;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #518ce082;
+  color: #0adcdf;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+section
+{
+width: 120%;
+height: 100vh;
+}
+
+section .resume
+{
+margin-top: 10px;
+margin-left: 10px;
+width: 75%;
+height: 100px;
+
+}
+
+section .resume h2
+{
+text-align: center;
+width: 85%;
+}
+
+
+.kim
+{
+
+    float: right;
+    height: 180px;
+    border: solid;
+    color:#e7ebf0;
+}
+section .objectives h1
+{
+border-style: solid;
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+section .background h1
+{
+border-style: solid;
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .seminar h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .skills h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .information h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .reference h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .affirmation h1
+{
+margin: 0;
+padding: 0;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+section .signature
+{
+margin: 0;
+padding: 0;
+font-size: 13px;
+}
+
+section .signature p
+{
+float: right;
+width: 30%;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
